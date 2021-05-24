@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { AngularFirestore, AngularFirestoreDocument } from '@angular/fire/firestore';
+import { FirestoreService } from '../services/firestore.service';
 
 @Component({
   selector: 'app-insert-word',
@@ -7,9 +9,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InsertWordComponent implements OnInit {
 
-  constructor() { }
-
+  /*constructor(private FirestoreService: AngularFirestore) { 
+    this.FirestoreService.insertWord({
+      word: "Fiesta",
+      referencia: "https://firebasestorage.googleapis.com/v0/b/vacachadafadb.appspot.com/o/fiesta.jpg?alt=media&token=5f8caa61-2491-49f0-973e-e7c5a84a284c"
+    })
+  }*/
   ngOnInit(): void {
   }
-
 }

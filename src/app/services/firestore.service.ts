@@ -8,4 +8,7 @@ import { Observable } from 'rxjs';
 export class FirestoreService {
 
   constructor(private firestore: AngularFirestore) { }
+  insertWord(word:any){
+    this.firestore.collection("Palabras de Noche").doc("1").set(word)
+  }
 }

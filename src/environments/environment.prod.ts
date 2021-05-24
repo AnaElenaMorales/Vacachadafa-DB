@@ -1,5 +1,6 @@
 export const environment = {
-  production: true, firebaseConfig: {
+  production: true, 
+  firebaseConfig: {
     apiKey: "AIzaSyABOWgm4n1g3INOpZefPxRPlEkLiBJO_Lg",
     authDomain: "vacachadafadb.firebaseapp.com",
     projectId: "vacachadafadb",
