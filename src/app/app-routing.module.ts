@@ -4,6 +4,7 @@ import { InsertWordComponent } from './insert-word/insert-word.component';
 
 const routes: Routes = [{path:"insertWord",component:InsertWordComponent}, {path:"",component:InsertWordComponent}];
 
+
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
